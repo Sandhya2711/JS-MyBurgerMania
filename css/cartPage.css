@@ -1,0 +1,59 @@
+body {
+    background-image: url("../images/home3.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%, 100%;
+}
+
+#centerdiv {
+    width: 90%;
+    background-color: rgb(3, 3, 3, 0.5);
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+
+button,
+label,
+#total,
+#b1 {
+    font-weight: 800;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(43, 41, 43);
+}
+
+table {
+    border: 2px solid black;
+    padding: 5px, 5px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+th,
+td {
+    width: 300px;
+    border: 2px solid black;
+    padding: 5px, 5px;
+    font-size: 23;
+    font-weight: 100;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+}
+
+#orderDisplay {
+    font-weight: 300;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}

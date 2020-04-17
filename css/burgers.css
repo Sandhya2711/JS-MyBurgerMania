@@ -1,0 +1,76 @@
+body {
+    background-image: url("../images/burgers.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%, 100%;
+}
+
+div {
+    margin-bottom: 100px;
+    background-color: rgb(49, 47, 47, 0.5);
+}
+
+img {
+    margin-top: 3px;
+    border: 2px solid white;
+    width: 120px;
+    height: 120px;
+}
+
+#imageGallery li {
+    margin-top: 7%;
+    margin-left: 2%;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+select,
+option {
+    padding: 3px 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+input {
+    text-align: center;
+    padding: 3px 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    width: 100px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+select {
+    margin: 5px;
+}
+
+button {
+    font-weight: 800;
+    width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 0%;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cart {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(68, 67, 67);
+}

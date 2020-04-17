@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerMania</title>
+
+    <link rel="stylesheet" href="./css/cartPage.css" />
+
+    <!-- <script type="text/javascript" src="./js/cartPage.js"></script> -->
+</head>
+
+<body>
+    <div id="centerdiv">
+        <div id=innerdiv>
+
+            <label id="label1">My Cart Items</label>
+            <div id="carttable">
+
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Burger Type</th>
+                            <th>Burger Category</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total Price</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table><br>
+                <b id="total"></b>
+                <br><br>
+                <button id="order" onclick="placeOrder()">Place order</button>
+            </div>
+        </div><br>
+
+
+    </div>
+
+
+    <script type="text/javascript" src="./js/cartPage.js"></script>
+</body>
+
+</html>

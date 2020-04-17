@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerMania</title>
+    <link rel="stylesheet" href="./css/burgers.css" />
+
+</head>
+
+<body>
+    <div>
+        <nav>
+            <ul id="imageGallery">
+                <li>
+                    <b>Crispy Supreme</b><br>
+                    <img src="./images/6.jpg"><br>
+                    <select id="cate1">
+                        <option value=Veg>Veg</option>
+                        <option value=Egg>Egg</option>
+                        <option value=Chicken>Chicken</option>
+                    </select>
+                    <input type='number' id="quant1" placeholder="Quantity" max=5 min=1 required>
+                    <br><button id="1" onclick=" return addToCartArray(this)" data-type="Crishpy">Add to Cart</button>
+                </li>
+
+                <li>
+                    <b>Surprise</b><br>
+                    <img src="./images/2.jpg"><br>
+                    <select id="cate2">
+                        <option value=Veg>Veg</option>
+                        <option value=Egg>Egg</option>
+                        <option value=Chicken>Chicken</option>
+                    </select>
+                    <input type='number' id="quant2" placeholder="Quantity" max=5 min=1 required>
+                    <br><button id='2' onclick=" return addToCartArray(this)" data-type="Surprise">Add to Cart</button>
+                </li>
+                <li>
+                    <b>Whopper</b><br>
+                    <img src="./images/3.jpg"><br>
+                    <select id="cate3">
+                        <option value=Veg>Veg</option>
+                        <option value=Egg>Egg</option>
+                        <option value=Chicken>Chicken</option>
+                    </select>
+                    <input type='number' id="quant3" placeholder="Quantity" max=5 min=1 required>
+                    <br><button id="3" onclick=" return addToCartArray(this)" data-type="Whopper">Add to Cart</button>
+                </li>
+                <li>
+                    <b>Chilli Cheese</b><br>
+                    <img src="./images/4.jpg"><br>
+                    <select id="cate4">
+                        <option value=Veg>Veg</option>
+                        <option value=Egg>Egg</option>
+                        <option value=Chicken>Chicken</option>
+                    </select>
+                    <input type='number' id="quant4" placeholder="Quantity" max=5 min=1 required>
+                    <br><button id="4" onclick="return addToCartArray(this)" data-type="Chilli Cheese">Add to Cart</button>
+                </li>
+                <li>
+                    <b>Tandoori Grill</b><br>
+                    <img src="./images/5.jpg"><br>
+                    <select id="cate5">
+                        <option value=Veg>Veg</option>
+                        <option value=Egg>Egg</option>
+                        <option value=Chicken>Chicken</option>
+                    </select>
+                    <input type='number' id="quant5" placeholder="Quantity" max=5 min=1 required>
+                    <br><button id="5" onclick=" return addToCartArray(this)" data-type="Tandoori Grill">Add to Cart</button>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <a href="./cartPage.html"><button id="cartbtn">View Cart</button></a>
+    <script type="text/javascript" src="./js/burgers.js"></script>
+</body>
+
+</html>
